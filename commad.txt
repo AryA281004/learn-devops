@@ -3,3 +3,6 @@ git add
 git status
 git commit
 git restore
+git branch
+git remote add origin
+git push
