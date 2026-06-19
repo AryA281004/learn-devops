@@ -1,7 +1,11 @@
-def my_function():
-
-    a = 5
-    return a
+"""Example module."""
 
 
-my_function()
+def my_function() -> int:
+    """Return a sample integer value."""
+    number = 5
+    return number
+
+
+if __name__ == "__main__":
+    print(my_function())
